@@ -1,0 +1,137 @@
+  <!DOCTYPE html>
+  <html>
+    <head>
+
+      <title> FutNews </title>
+
+      <meta name="Descrição" content="Um site feito para os verdadeiros torcedores do TIMÃO, ter mais do time a seu alcance.">
+      <meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
+       <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      <link type="text/css" rel="stylesheet" href="css/estilo.css">
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
+
+    </head>
+
+    <body background="img/pldefundo2.png"> 
+
+
+      <!--  INICIO (TOPO E MENU)  -->
+      <div class="row">
+        <nav class="menu">
+          <div class="container">
+          <div class="nav-wrapper">
+           <a href="#" class="brand-logo"><img class="indentlogo" src="img/logo2.png" alt="Materialize"></a>
+           <a href="#!" class="brand-logo center">FutNews</a>
+           <ul id="nav-mobile" class="right hide-on-med-and-down">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="historia.html">Sobre</a></li>
+              <li><a href="papeldeparede.html">Papeis de Parede</a></li>
+              <li><a href="trofeus.html">Vitrine de Troféus</a></li>
+              <li><a href="https://www.google.com/search?q=tabela+dos+jogos+corinthians&rlz=1C1CHBD_pt-PTBR876BR876&oq=tabela+dos+jogos+cor&aqs=chrome.1.69i57j0l7.14780j0j7&sourceid=chrome&ie=UTF-8#sie=t;/m/019lvv;2;/m/0fnk7q;mt;fp;1;;" target="blanck">Jogos</a></li>
+           </ul>
+          </div>
+          </div>
+        </nav>
+      </div>
+      <!--  FIM (TOPO E MENU)  -->
+
+
+      <!-- INICIO (SLIDER) -->
+      <div class="carousel carousel-slider">
+        <a class="carousel-item" href="#one!"><img src="img/banner3.jpg"></a>
+        <a class="carousel-item" href="#two!"><img src="img/banner2.jpg"></a>
+        <a class="carousel-item" href="#three!"><img src="img/banner1.jpg"></a>
+        <a class="carousel-item" href="#four!"><img src="img/banner5.jpg"></a>
+      </div>
+      <!--  FIM (SLIDER)  -->
+
+
+      <!--  INICIO (CHAMADA)  -->
+      <div class="container">
+        <center><h1 class="megatitulo">Mais do TIMÃO:</h1></center>
+        <div class=row>
+          <div class="col s12 m6 l4">
+            <center>
+            <p class="titulochamada">SITE OFICIAl</p>
+            <img class="responsive-img" src="img/chamada1.jpg"></a>
+            <a class="waves-effect waves-light margemtop btn" href="https://www.corinthians.com.br/" target="blanck">Acessar</a>
+            </center>
+          </div>
+          <div class="col s12 m6 l4">
+            <center>
+              <p class="titulochamada">SHOP TIMÃO</p>
+              <img class="responsive-img" src="img/chamada2.jpg"></a>
+              <a class="waves-effect waves-light margemtop btn" href="https://www.shoptimao.com.br/" target="blanck">Acessar</a>
+              </center>
+          </div>
+          <div class="col s12 m6 l4">
+            <center>
+              <p class="titulochamada">BANCO TIMÃO</p>
+              <img class="responsive-img" src="img/chamada3.jpg"></a>
+              <a class="waves-effect waves-light margemtop btn" href="https://www.meubmg.com.br/corinthians/" target="blanck">Acessar</a>
+            </center>
+          </div>
+        </div>
+      </div>
+
+      <!--  FIM (CHAMADA)  -->
+
+
+      <!--  INICIO (RODAPÉ) -->
+      <footer class="page-footer">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">Redes Sociais</h5>
+                <p class="grey-text text-lighten-4">Visite e siga as redes sociais do nosso TIMÃO e se mantenha atualizado com tudo que ocorre, detro e fora de campo no Coringão!</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Links</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="https://www.instagram.com/corinthians/?hl=pt-br" target="blanck">Instagram</a></li>
+                  <li><a class="grey-text text-lighten-3" href="https://pt-br.facebook.com/corinthians/" target="blanck">Facebook</a></li>
+                  <li><a class="grey-text text-lighten-3" href="https://twitter.com/Corinthians?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="blanck">Twitter</a></li>
+                  <li><a class="grey-text text-lighten-3" href="https://www.youtube.com/user/corinthiansoficial/featured" target="blanck">YouTube</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2019 Copyright - João Pedro Lima & Igor Miranda - Direitos Reservados
+            </div>
+          </div>
+        </footer>
+      <!--  FIM (RODAPÉ)  -->  
+
+      <!--Jquery-->
+      <script  src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+      <!--Materialize JS-->
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+
+      <script>
+         $(document).ready(function(){
+          $('.carousel').carousel();
+          });
+
+         $('.carousel.carousel-slider').carousel({
+          fullWidth: true
+          });
+
+      </script>
+      <script>
+        $(document).ready(function(){
+         $('.carousel').carousel({
+          duration:1000
+        })
+      </script>
+
+
+    </body>
+  </html>

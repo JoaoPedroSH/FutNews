@@ -1,0 +1,90 @@
+
+
+nav{
+
+	background-color: rgba(0, 0, 0, 0.95) !important;
+}
+
+.menu{
+
+    height: 64px !important;
+    line-height: 64px !important;
+}
+
+
+.indentlogo{
+
+	    padding-top: 2,9px !important;
+}
+
+nav .brand-logo.center {
+    left: 27% !important;
+    color: #F5F5F5 !important
+}
+
+nav .brand-logo.center{
+
+	font-family:fantasy !important;
+}
+
+.carousel{
+	height: 741px !important;
+	width: 1920px !important;
+
+}
+
+.carousel.carousel-slider {
+    top: -10px !important;
+    left: 0 !important;
+}
+
+.margemtop{
+	margin-top: 10px
+}
+
+.btn, .btn-large, .btn-small {
+    text-decoration: none;
+    color: #fff;
+    background-color: #353535f0;
+
+}
+
+.titulochamada{
+	font-weight: bold;
+	color:#ffffff;
+	background-color: #080808f5;
+}
+
+.megatitulo{
+	font-size: 60px;
+	font-weight: bold;
+	color: #000000;
+	font-family: fantasy;
+	background-color:#ffffff87;
+	
+}
+
+.page-footer{
+    padding-top: 20px;
+    color: #fff;
+    background-color: #000000db;
+}
+
+
+ .titulochamada2{
+ 	background-color: #F0E68C; 
+ 	font-weight: bold;
+ 	font-family: cursive;
+ }
+
+ .titulochamada3{
+ 	background-color: #ffd700c2;
+ 	font-weight: bold;
+ 	font-family: cursive;
+
+ }
+ .black-text{
+ 	font-size: 25px;
+ }
+
+
